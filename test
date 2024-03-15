@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Newsletter Layout</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+
+<div style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: #8a2be2; color: white; border-radius: 8px;">
+  <div style="margin-bottom: 20px;">
+    <h2 style="text-align: center;">Welcome to Our Newsletter!</h2>
+    <p style="text-align: center;">This is a section of your newsletter. It's great for introducing your topic or including some interesting information.</p>
+  </div>
+  <div style="margin-bottom: 20px;">
+    <h2 style="text-align: center;">Latest Updates</h2>
+    <p style="text-align: center;">Here you can add updates, news, or anything relevant to your readers. The white text on a purple background helps it stand out.</p>
+  </div>
+  <div style="margin-bottom: 20px;">
+    <h2 style="text-align: center;">Contact Us</h2>
+    <p style="text-align: center;">Don't hesitate to get in touch! Include your contact information here.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Newsletter Layout</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  .newsletter {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #8a2be2; /* Purple background */
+    color: white; /* White text */
+    border-radius: 8px;
+  }
+  .newsletter h2, .newsletter p {
+    text-align: center; /* Centering text */
+  }
+  .section {
+    margin-bottom: 20px; /* Spacing between sections */
+  }
+</style>
+</head>
+<body>
+
+<div class="newsletter">
+  <div class="section">
+    <h2>Welcome to Our Newsletter!</h2>
+    <p>This is a section of your newsletter. It's great for introducing your topic or including some interesting information.</p>
+  </div>
+  <div class="section">
+    <h2>Latest Updates</h2>
+    <p>Here you can add updates, news, or anything relevant to your readers. The white text on a purple background helps it stand out.</p>
+  </div>
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p>Don't hesitate to get in touch! Include your contact information here.</p>
+  </div>
+</div>
+
+</body>
+</html>
